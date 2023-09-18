@@ -1,4 +1,5 @@
-import { scrollSmoothlyToPosition } from "./scrollSmoothlyToPosition.js";
+// Если импортируем скрипт то в нём нужно добавить export перед объявлением функции function
+// import { scrollSmoothlyToPosition } from "./scrollSmoothlyToPosition.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   try {

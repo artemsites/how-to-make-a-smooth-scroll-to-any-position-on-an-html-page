@@ -14,7 +14,7 @@
  *   если установлено число то это значение в px
  *   если указывается строка то можно применить rem: "5rem" при условии что у :root или html установлен font-size
  **/
-export function scrollSmoothlyToPosition(params) {
+function scrollSmoothlyToPosition(params) {
   params.selector = params.selector || false;
   params.offsetTop = params.offsetTop || 0;
 
